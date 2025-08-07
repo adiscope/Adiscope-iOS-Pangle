@@ -16,7 +16,14 @@ let package = Package(
             dependencies: [
                 .target(name: "PAGAdSDK"),
             ],
-            resources: [.copy("PAGAdSDK.bundle")]
+            resources: [.copy("PAGAdSDK.bundle")],
+            linkerSettings: [
+              .linkedFramework("Accelerate" ),
+              .linkedLibrary("resolv"),
+              .linkedLibrary("bz2"),
+              .linkedLibrary("c++abi"),
+              .linkedLibrary("c++"),
+            ]
         ),
         .binaryTarget(
             name: "PAGAdSDK",
