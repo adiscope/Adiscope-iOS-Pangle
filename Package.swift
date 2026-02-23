@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "PAGAdSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.2.0/PAGAdSDK.xcframework.zip",
-            checksum: "0fb909bf1a0ffd7302861ceb7f401121ab298a57363dc4eff15df467d5b024d7"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/PAGAdSDK.xcframework.zip",
+            checksum: "d4e89ea29d07fd397d8a65f091544a9a1addd4ac376a24a325100a0f15d6b2d6"
         ),
     ]
 )
